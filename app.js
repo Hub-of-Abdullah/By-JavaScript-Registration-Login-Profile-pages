@@ -21,29 +21,32 @@ Reg.addEventListener('click', function(e){
         
        //Creating a table Column
         const ProInfo = document.createElement('tr');
-        //Creating new title 
-        const newName =document.createElement('td');
-        newName.innerHTML=Name.value;
-        ProInfo.appendChild(newName)
-        //ProName.appendChild(NameRow);
 
-        // const IdRow = document.createElement('tr');
+        //Creating new Name
+        const newName =document.createElement('td');
+        newName.innerHTML= Name.value;
+        ProInfo.appendChild(newName)
+       
+        //Creating new ID NO 
         const newId =document.createElement('td');
         newId.innerHTML=ID.value;
         ProInfo.appendChild(newId);
 
-        const newDept =document.createElement('td');
-        newDept.innerHTML=Dept.value;
-        ProInfo.appendChild(newDept);
+        //Creating new Email
+        const newEmail =document.createElement('td');
+        newEmail.innerHTML=Email.value;
+        ProInfo.appendChild(newEmail);
 
+        //Creating new Phone Number 
         const newPhn =document.createElement('td');
         newPhn.innerHTML=Phn.value;
         ProInfo.appendChild(newPhn);
 
-        const newEmail =document.createElement('td');
-        newEmail.innerHTML=Email.value;
-        ProInfo.appendChild(newEmail);
-        
+        //Creating new Department 
+        const newDept =document.createElement('td');
+        newDept.innerHTML= Dept.value;
+        ProInfo.appendChild(newDept);
+
         ProfileInfo.appendChild(ProInfo);
     }
 })
