@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F0FFFF;
+}
+/* Registration Form style */
+.main{
+    background-color: #9ba094;
+    margin: 60px 400px 50px 400px;
+    border: 3px solid #B0E0E6;
+    border-radius: 1%;
+    padding-bottom: 20px;
+}
+.main .register h1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    text-decoration-style: solid;
+    border-bottom:3px solid #B0E0E6 ;
+    padding: 1%;
+    margin: 0%;
+}
+#register{
+    font-size: 23px;
+    color: black;
+    margin-left: 8%;
+}
+#register .label{
+    padding-left: 10px;
+}
+input[type=text] {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 1px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.btn-btn input[type=submit] {
+    width: 20%;
+    background-color: green;
+    color: #F0FFFF;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.btn{
+    margin: 0px 170px 2px 170px;
+}
+/* End Registration Form Style */
+
+
+/* Start Profile card Style */
+.profile{
+    background-color: #9ba094;
+    margin: 60px 400px 50px 400px;
+    border: 3px solid #B0E0E6;
+    border-radius: 1%;
+}
+.profile .TableForCard {
+    line-height:35px;
+    font-size: 23px;
+    font-style: normal;
+}
+.title{
+    display: block; 
+    float: left; 
+    width:200px;
+    text-align: right;
+}
+.title td { display: block; }
+.colon{
+    display: block; 
+    float: left; 
+    width:2px;
+    padding-left: 20px;
+    /* text-align: right; */
+}
+.colon td { display: block; }
+.value { 
+display: block; 
+float: left; 
+width:200px;
+padding-left: 10px;
+}
+.value td { display: block; }
+/* end Profile Card style */
+
